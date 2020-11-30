@@ -779,7 +779,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        int z = Integer.parseInt(txt1.getText());
+        int z = (Integer.parseInt(txt1.getText())/1000);
         int a = modo();
         double b = req1();
         double c = req2();

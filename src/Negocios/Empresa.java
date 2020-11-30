@@ -95,7 +95,7 @@ public class Empresa {
         }
        es = a1*(Math.pow(q,b1))*a*b*c*d*e*f*g*h*i*j*k*m*n*o*p;
        double ti = c1*(Math.pow(es,d1));
-       double co = (es/ti)*930;
+       double co = es*930;
        return co;
     }
     public void Ingresar(clsEmpresa em){
